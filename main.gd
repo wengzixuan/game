@@ -70,7 +70,3 @@ func _on_StartTimer_timeout():
 	pass # Replace with function body.
 	$MobTimer.start()
 	$ScoreTimer.start()
-
-
-func _on_HUD_start_game():
-	pass # Replace with function body.
