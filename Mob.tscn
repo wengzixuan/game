@@ -8,7 +8,7 @@
 [ext_resource path="res://art/enemyWalking_1.png" type="Texture" id=6]
 [ext_resource path="res://art/enemySwimming_1.png" type="Texture" id=7]
 
-[sub_resource type="SpriteFrames" id=1]
+[sub_resource type="SpriteFrames" id=3]
 animations = [ {
 "frames": [ ExtResource( 3 ), ExtResource( 5 ) ],
 "loop": true,
@@ -40,8 +40,8 @@ __meta__ = {
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.75, 0.75 )
-frames = SubResource( 1 )
-animation = "swim"
+frames = SubResource( 3 )
+animation = "fly"
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
